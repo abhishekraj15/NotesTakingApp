@@ -41,3 +41,41 @@ CORS
 Follow these steps to clone and run the project on your local machine:
 
 1️⃣ Clone the Repository
+$ git clone https://github.com/abhishekraj15/NotesTakingApp.git
+$ cd NotesTakingApp
+
+2️⃣ Backend Setup (Server)
+
+Move into the backend directory:
+$ cd taskBackend
+
+Install dependencies:
+$ npm install
+
+Create a .env file and add the following:
+PORT=4000
+MONGO_URI=your_mongodb_connection_string
+
+Start the backend server:
+$ npm start
+
+
+3️⃣ Frontend Setup (Client)
+
+Move into the frontend directory:
+$ cd ../frontend
+
+install dependencies:
+$ npm install
+
+Start the React app:
+$ npm start
+
+
+
+
+📝 Contributing
+
+Feel free to fork this repository, open issues, and submit pull requests.
+
+💡 Happy Coding! 🚀
